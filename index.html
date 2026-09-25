@@ -6,81 +6,848 @@
 <meta name="theme-color" content="#0074C5">
 <meta name="description" content="Celebrate the Clark County Acceleration Academies Class of 2026. Graduation ceremony information and digital program.">
 <title>Class of 2026 | Clark County Acceleration Academies</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
 <style>
-:root{--blue:#0074C5;--teal:#00AEC4;--purple:#57327C;--magenta:#842571;--gold:#E3A50E;--ink:#222831;--muted:#515c66;--paper:#f5f8fa;--line:#dce5eb}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);background:var(--paper);font-family:Montserrat,Avenir,"Segoe UI",sans-serif;line-height:1.65}a{color:var(--blue);text-underline-offset:4px}button,input,select{font:inherit}:focus-visible{outline:3px solid var(--purple);outline-offset:4px}.wrap{max-width:1080px;margin:auto;padding:0 26px}.skip{position:absolute;left:15px;top:-100px;background:white;padding:12px;z-index:9}.skip:focus{top:10px}.masthead{background:white;border-top:6px solid var(--blue)}.masthead .wrap{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-top:24px;padding-bottom:24px}.school{font-weight:700;line-height:1.3;max-width:310px}.school small{display:block;color:var(--blue);font-size:12px;letter-spacing:2px;margin-bottom:5px;font-weight:600}.edition{font-size:11px;letter-spacing:2px;font-weight:600;color:var(--muted)}.hero{background:white;position:relative;overflow:hidden}.hero .wrap{padding-top:55px;padding-bottom:54px;position:relative}.eyebrow{font-size:12px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--blue);margin:0 0 16px}h1{font-size:clamp(55px,10vw,108px);letter-spacing:-5px;line-height:1.02;margin:0;font-weight:800}h1 span{color:var(--blue)}.hero h2{font-size:clamp(21px,4vw,29px);font-weight:500;margin:24px 0 13px}.intro{max-width:620px;color:var(--muted);font-size:17px}.stripe{height:7px;background:linear-gradient(90deg,var(--magenta),var(--purple),var(--blue),var(--teal))}.event{display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px;border-top:1px solid var(--line);padding-top:26px;margin-top:35px}.event strong{display:block;font-size:16px}.event span{display:block;font-size:13px;color:var(--muted)}nav{position:sticky;top:0;background:white;border-bottom:1px solid var(--line);z-index:2}nav .wrap{display:flex;gap:25px;overflow:auto;padding-top:14px;padding-bottom:14px}nav a{white-space:nowrap;text-decoration:none;color:var(--ink);font-weight:600;font-size:13px;min-height:28px;display:flex;align-items:center}nav a:hover{color:var(--blue)}main{padding-top:42px;padding-bottom:50px}.section{background:white;border:1px solid var(--line);border-radius:15px;padding:32px;margin-bottom:24px}.section h2{font-size:26px;line-height:1.2;margin:0 0 17px;letter-spacing:-.6px}.section p{margin:10px 0;color:var(--muted)}.number{display:block;color:var(--blue);font-size:12px;letter-spacing:2px;font-weight:700;margin-bottom:14px}.welcome{border-left:5px solid var(--teal)}.welcome p{max-width:820px}.pending{border-left:3px solid var(--gold);padding:12px 18px;background:#faf8f1;border-radius:0 7px 7px 0}.tools{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin:22px 0}label{display:block;font-size:12px;font-weight:700;margin-bottom:7px}input,select{width:100%;padding:13px;border:1px solid #a8b6c2;border-radius:7px;background:white;color:var(--ink);min-height:48px}ul.names{list-style:none;padding:0;margin:15px 0;display:grid;grid-template-columns:1fr 1fr;gap:12px}.names li{padding:15px;border:1px solid var(--line);border-radius:8px}.names small{display:block;color:var(--muted)}.two{display:grid;grid-template-columns:1fr 1fr;gap:24px}.two .section{margin-bottom:0}.link-button{display:inline-block;padding:11px 18px;border-radius:7px;background:var(--blue);color:white;text-decoration:none;font-weight:600;font-size:13px;margin-top:10px}.foot{background:white;border-top:1px solid var(--line);text-align:center;padding:32px 22px;font-size:12px}.foot strong{display:block;font-size:14px}.foot p{margin:7px 0;color:var(--muted)}.gold{width:48px;height:4px;background:var(--gold);margin:0 auto 20px}.status{font-size:13px;color:var(--muted)}[hidden]{display:none!important}
-@media(max-width:620px){.wrap{padding:0 20px}.masthead .wrap{padding-top:20px;padding-bottom:20px}.edition{display:none}.hero .wrap{padding-top:36px;padding-bottom:34px}h1{letter-spacing:-3px}.event{grid-template-columns:1fr;gap:18px;margin-top:25px}.event strong{font-size:15px}.event span{font-size:13px}nav .wrap{gap:22px}.section{padding:25px 22px}.section h2{font-size:23px}.tools,.two,ul.names{grid-template-columns:1fr}.intro{font-size:15px}main{padding-top:26px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-@media print{nav,.tools,.skip,.link-button{display:none}body{background:white}.section{break-inside:avoid}.hero .wrap{padding-top:20px;padding-bottom:20px}h1{font-size:60px}.section{padding:20px}.foot{background:white}}
+:root{
+  --blue:#0074C5;
+  --teal:#00AEC4;
+  --purple:#57327C;
+  --magenta:#842571;
+  --gold:#E3A50E;
+  --ink:#222831;
+  --muted:#515c66;
+  --paper:#f5f8fa;
+  --line:#dce5eb;
+}
+
+*{box-sizing:border-box}
+
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:90px;
+}
+
+body{
+  margin:0;
+  color:var(--ink);
+  background:var(--paper);
+  font-family:Montserrat,Avenir,"Segoe UI",sans-serif;
+  line-height:1.65;
+}
+
+a{
+  color:var(--blue);
+  text-underline-offset:4px;
+}
+
+button,input,select{font:inherit}
+
+:focus-visible{
+  outline:3px solid var(--purple);
+  outline-offset:4px;
+}
+
+.wrap{
+  max-width:1080px;
+  margin:auto;
+  padding:0 26px;
+}
+
+.skip{
+  position:absolute;
+  left:15px;
+  top:-100px;
+  background:white;
+  padding:12px;
+  z-index:9;
+}
+
+.skip:focus{top:10px}
+
+.masthead{
+  background:white;
+  border-top:6px solid var(--blue);
+}
+
+.masthead .wrap{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:24px;
+  padding-top:24px;
+  padding-bottom:24px;
+}
+
+.school{
+  font-weight:700;
+  line-height:1.3;
+  max-width:310px;
+}
+
+.school small{
+  display:block;
+  color:var(--blue);
+  font-size:12px;
+  letter-spacing:2px;
+  margin-bottom:5px;
+  font-weight:600;
+}
+
+.edition{
+  font-size:11px;
+  letter-spacing:2px;
+  font-weight:600;
+  color:var(--muted);
+}
+
+.hero{
+  background:white;
+  position:relative;
+  overflow:hidden;
+}
+
+.hero .wrap{
+  padding-top:55px;
+  padding-bottom:54px;
+  position:relative;
+}
+
+.eyebrow{
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:2.5px;
+  text-transform:uppercase;
+  color:var(--blue);
+  margin:0 0 16px;
+}
+
+h1{
+  font-size:clamp(55px,10vw,108px);
+  letter-spacing:-5px;
+  line-height:1.02;
+  margin:0;
+  font-weight:800;
+}
+
+h1 span{color:var(--blue)}
+
+.hero h2{
+  font-size:clamp(21px,4vw,29px);
+  font-weight:500;
+  margin:24px 0 13px;
+}
+
+.intro{
+  max-width:620px;
+  color:var(--muted);
+  font-size:17px;
+}
+
+.stripe{
+  height:7px;
+  background:linear-gradient(90deg,var(--magenta),var(--purple),var(--blue),var(--teal));
+}
+
+.event{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:28px;
+  border-top:1px solid var(--line);
+  padding-top:26px;
+  margin-top:35px;
+}
+
+.event strong{
+  display:block;
+  font-size:16px;
+}
+
+.event span{
+  display:block;
+  font-size:13px;
+  color:var(--muted);
+}
+
+nav{
+  position:sticky;
+  top:0;
+  background:white;
+  border-bottom:1px solid var(--line);
+  z-index:2;
+}
+
+nav .wrap{
+  display:flex;
+  gap:25px;
+  overflow:auto;
+  padding-top:14px;
+  padding-bottom:14px;
+}
+
+nav a{
+  white-space:nowrap;
+  text-decoration:none;
+  color:var(--ink);
+  font-weight:600;
+  font-size:13px;
+  min-height:28px;
+  display:flex;
+  align-items:center;
+}
+
+nav a:hover{color:var(--blue)}
+
+main{
+  padding-top:42px;
+  padding-bottom:50px;
+}
+
+.section{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:15px;
+  padding:32px;
+  margin-bottom:24px;
+}
+
+.section h2{
+  font-size:26px;
+  line-height:1.2;
+  margin:0 0 17px;
+  letter-spacing:-.6px;
+}
+
+.section p{
+  margin:10px 0;
+  color:var(--muted);
+}
+
+.number{
+  display:block;
+  color:var(--blue);
+  font-size:12px;
+  letter-spacing:2px;
+  font-weight:700;
+  margin-bottom:14px;
+}
+
+.welcome{
+  border-left:5px solid var(--teal);
+}
+
+.welcome p{max-width:820px}
+
+.pending{
+  border-left:3px solid var(--gold);
+  padding:12px 18px;
+  background:#faf8f1;
+  border-radius:0 7px 7px 0;
+}
+
+.tools{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  gap:16px;
+  margin:22px 0;
+}
+
+label{
+  display:block;
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:7px;
+}
+
+input,select{
+  width:100%;
+  padding:13px;
+  border:1px solid #a8b6c2;
+  border-radius:7px;
+  background:white;
+  color:var(--ink);
+  min-height:48px;
+}
+
+ul.names{
+  list-style:none;
+  padding:0;
+  margin:15px 0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.names li{
+  padding:15px;
+  border:1px solid var(--line);
+  border-radius:8px;
+}
+
+.names small{
+  display:block;
+  color:var(--muted);
+}
+
+/* STAFF */
+
+.staff-section{
+  border-top:5px solid var(--blue);
+}
+
+.staff-intro{
+  max-width:780px;
+  margin-bottom:30px !important;
+}
+
+.staff-group{
+  margin-top:38px;
+  padding-top:28px;
+  border-top:1px solid var(--line);
+}
+
+.staff-group:first-of-type{
+  margin-top:25px;
+}
+
+.staff-group h3{
+  margin:0 0 18px;
+  font-size:22px;
+  color:var(--ink);
+}
+
+.staff-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+}
+
+.staff-card{
+  border:1px solid var(--line);
+  border-radius:9px;
+  padding:17px 19px;
+  background:#fff;
+}
+
+.staff-name{
+  display:block;
+  font-size:17px;
+  font-weight:800;
+  color:var(--ink);
+  line-height:1.3;
+}
+
+.staff-title{
+  display:block;
+  color:var(--muted);
+  font-size:13px;
+  margin-top:4px;
+  font-weight:500;
+}
+
+.coach-area{
+  margin:22px 0;
+}
+
+.coach-area h4{
+  color:var(--blue);
+  font-size:15px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin:0 0 10px;
+}
+
+.coach-list{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px 18px;
+}
+
+.coach-name{
+  padding:9px 0;
+  border-bottom:1px solid var(--line);
+  font-weight:700;
+  font-size:15px;
+}
+
+.campus{
+  margin-top:32px;
+  padding:25px;
+  background:#f8fbfd;
+  border-radius:12px;
+  border-left:4px solid var(--teal);
+}
+
+.campus h3{
+  color:var(--blue);
+  font-size:23px;
+  margin:0 0 18px;
+}
+
+.campus-leadership{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:12px;
+  margin-bottom:22px;
+}
+
+.campus-leader{
+  background:white;
+  border:1px solid var(--line);
+  border-radius:8px;
+  padding:16px;
+}
+
+.gca-label{
+  font-size:12px;
+  font-weight:800;
+  letter-spacing:1.4px;
+  color:var(--purple);
+  text-transform:uppercase;
+  margin:18px 0 9px;
+}
+
+.staff-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:8px 18px;
+}
+
+.staff-list li{
+  padding:10px 0;
+  border-bottom:1px solid var(--line);
+  font-size:15px;
+  font-weight:700;
+}
+
+/* END STAFF */
+
+.two{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:24px;
+}
+
+.two .section{margin-bottom:0}
+
+.link-button{
+  display:inline-block;
+  padding:11px 18px;
+  border-radius:7px;
+  background:var(--blue);
+  color:white;
+  text-decoration:none;
+  font-weight:600;
+  font-size:13px;
+  margin-top:10px;
+}
+
+.foot{
+  background:white;
+  border-top:1px solid var(--line);
+  text-align:center;
+  padding:32px 22px;
+  font-size:12px;
+}
+
+.foot strong{
+  display:block;
+  font-size:14px;
+}
+
+.foot p{
+  margin:7px 0;
+  color:var(--muted);
+}
+
+.gold{
+  width:48px;
+  height:4px;
+  background:var(--gold);
+  margin:0 auto 20px;
+}
+
+.status{
+  font-size:13px;
+  color:var(--muted);
+}
+
+[hidden]{display:none!important}
+
+@media(max-width:620px){
+  .wrap{padding:0 20px}
+  .masthead .wrap{padding-top:20px;padding-bottom:20px}
+  .edition{display:none}
+  .hero .wrap{padding-top:36px;padding-bottom:34px}
+  h1{letter-spacing:-3px}
+  .event{grid-template-columns:1fr;gap:18px;margin-top:25px}
+  .event strong{font-size:15px}
+  .event span{font-size:13px}
+  nav .wrap{gap:22px}
+  .section{padding:25px 22px}
+  .section h2{font-size:23px}
+  .tools,.two,ul.names,.staff-grid,.coach-list,.campus-leadership,.staff-list{
+    grid-template-columns:1fr;
+  }
+  .intro{font-size:15px}
+  main{padding-top:26px}
+  .campus{padding:20px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+}
+
+@media print{
+  nav,.tools,.skip,.link-button{display:none}
+  body{background:white}
+  .section{break-inside:avoid}
+  .hero .wrap{padding-top:20px;padding-bottom:20px}
+  h1{font-size:60px}
+  .section{padding:20px}
+  .foot{background:white}
+}
 </style>
 </head>
+
 <body>
+
 <a class="skip" href="#main">Skip to program</a>
-<header class="masthead"><div class="wrap">
-<!-- Replace this text identifier with the approved CCAA logo when supplied. Do not recreate the logo. -->
-<div class="school"><small>CLARK COUNTY</small>Acceleration Academies</div>
+
+<header class="masthead">
+<div class="wrap">
+<div class="school">
+<small>CLARK COUNTY</small>
+Acceleration Academies
+</div>
 <div class="edition">2026 GRADUATION PROGRAM</div>
-</div></header>
-<div class="hero"><div class="wrap">
+</div>
+</header>
+
+<div class="hero">
+<div class="wrap">
+
 <p class="eyebrow">Your journey. Your achievement.</p>
+
 <h1>Class of <span>2026.</span></h1>
+
 <h2>A moment to celebrate. A future to create.</h2>
-<p class="intro">Join us in celebrating the determination, growth and accomplishments of our Clark County Acceleration Academies graduates.</p>
+
+<p class="intro">
+Join us in celebrating the determination, growth and accomplishments of our Clark County Acceleration Academies graduates.
+</p>
+
 <div class="event">
-<div><strong>Thursday, October 1, 2026</strong><span>Graduation ceremony</span></div>
-<div><strong>6:00 p.m.</strong><span>Ceremony begins</span></div>
-<div><strong>Central Church · Henderson</strong><span>1001 New Beginnings Drive<br>Henderson, NV 89011</span></div>
-</div></div></div><div class="stripe" aria-hidden="true"></div>
-<nav aria-label="Program sections"><div class="wrap"><a href="#welcome">Welcome</a><a href="#ceremony">Ceremony</a><a href="#graduates">Graduates</a><a href="#recognition">Recognition</a><a href="#information">Guest information</a></div></nav>
+
+<div>
+<strong>Thursday, October 1, 2026</strong>
+<span>Graduation ceremony</span>
+</div>
+
+<div>
+<strong>6:00 p.m.</strong>
+<span>Ceremony begins</span>
+</div>
+
+<div>
+<strong>Central Church · Henderson</strong>
+<span>
+1001 New Beginnings Drive<br>
+Henderson, NV 89011
+</span>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="stripe" aria-hidden="true"></div>
+
+<nav aria-label="Program sections">
+<div class="wrap">
+<a href="#welcome">Welcome</a>
+<a href="#ceremony">Ceremony</a>
+<a href="#graduates">Graduates</a>
+<a href="#recognition">Recognition</a>
+<a href="#staff">Staff</a>
+<a href="#information">Guest information</a>
+</div>
+</nav>
+
 <main id="main" class="wrap">
-<section class="section welcome" id="welcome"><span class="number">A MESSAGE TO OUR GRADUATES</span><h2>You made this moment possible.</h2><p>Every graduate arrives here with a story. Tonight, we honor the perseverance it took to keep going, the courage to take the next step and the commitment to finish.</p><p>To our families, friends and academy teams: thank you for encouraging our graduates and celebrating their success. Class of 2026, this moment belongs to you.</p></section>
-<section class="section" id="ceremony"><span class="number">01 / THE CELEBRATION</span><h2>Order of ceremony</h2>
-<!-- Replace the message below with the confirmed ceremony order and speaker names. -->
-<p class="pending">The ceremony lineup and speakers will be added here before graduation. Please check back for the complete program.</p></section>
-<section class="section" id="graduates"><span class="number">02 / THE CLASS OF 2026</span><h2>Celebrate our graduates</h2><p>One milestone. So many remarkable journeys.</p>
-<section class="section" id="staff">
+
+<section class="section welcome" id="welcome">
+<span class="number">A MESSAGE TO OUR GRADUATES</span>
+<h2>You made this moment possible.</h2>
+
+<p>
+Every graduate arrives here with a story. Tonight, we honor the perseverance it took to keep going, the courage to take the next step and the commitment to finish.
+</p>
+
+<p>
+To our families, friends and academy teams: thank you for encouraging our graduates and celebrating their success. Class of 2026, this moment belongs to you.
+</p>
+</section>
+
+
+<section class="section" id="ceremony">
+<span class="number">01 / THE CELEBRATION</span>
+<h2>Order of ceremony</h2>
+
+<p class="pending">
+The ceremony lineup and speakers will be added here before graduation. Please check back for the complete program.
+</p>
+</section>
+
+
+<section class="section" id="graduates">
+<span class="number">02 / THE CLASS OF 2026</span>
+<h2>Celebrate our graduates</h2>
+
+<p>One milestone. So many remarkable journeys.</p>
+
+<div id="graduate-tools" class="tools" hidden>
+
+<div>
+<label for="search">Find a graduate</label>
+<input id="search" type="search" placeholder="Enter a graduate’s name" autocomplete="off">
+</div>
+
+<div>
+<label for="campus">Academy</label>
+<select id="campus">
+<option value="">All academies</option>
+<option>East</option>
+<option>North</option>
+<option>Southeast</option>
+<option>HOPE</option>
+</select>
+</div>
+
+</div>
+
+<p id="graduate-status" class="pending" role="status" aria-live="polite">
+The Class of 2026 graduate list will be added here soon.
+</p>
+
+<ul id="graduate-list" class="names" aria-label="Graduates"></ul>
+
+<noscript>
+<p>Enable JavaScript to use graduate name search.</p>
+</noscript>
+</section>
+
+
+<section class="section" id="recognition">
+<span class="number">03 / SPECIAL RECOGNITION</span>
+<h2>Honoring achievement</h2>
+
+<p class="pending">
+Scholarship recipients and special recognitions will be announced here when finalized.
+</p>
+</section>
+
+
+<!-- STAFF SECTION -->
+
+<section class="section staff-section" id="staff">
+
 <span class="number">04 / OUR TEAM</span>
-<h2>Meet our staff</h2>
-<p>Celebrating the dedicated team supporting our Clark County Acceleration Academies graduates.</p>
+<h2>The people behind the journey</h2>
 
-<h3>Leadership</h3>
-<ul class="names">
-<li><strong>Kelli Campbell</strong><small>CEO</small></li>
-<li><strong>Fernando Moreno</strong><small>COO</small></li>
-<li><strong>Derek Bellow</strong><small>Regional VP</small></li>
-</ul>
+<p class="staff-intro">
+Our graduates are supported by a team committed to helping them reach this moment. We proudly recognize the Clark County Acceleration Academies staff who encourage, teach and support our Graduation Candidates every day.
+</p>
 
-<h3>Support Team</h3>
-<ul class="names">
-<li><strong>Katya Riley</strong></li>
-<li><strong>Willa Midgette</strong></li>
-<li><strong>Maria Thayer</strong></li>
-<li><strong>Harmoni Wallace</strong></li>
-<li><strong>Friyana Pithawalla</strong></li>
-<li><strong>Joy Smith</strong></li>
-<li><strong>Kamy Acosta</strong></li>
-<li><strong>Xochitl Saenz</strong><small>District Registrar</small></li>
-<li><strong>Michelle King</strong><small>Registrar</small></li>
-<li><strong>Sam Medrano</strong><small>Registrar</small></li>
-</ul>
+
+<div class="staff-group">
+<h3>CCAA Leadership</h3>
+
+<div class="staff-grid">
+
+<div class="staff-card">
+<span class="staff-name">Kelli Campbell</span>
+<span class="staff-title">Chief Executive Officer</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Fernando Moreno</span>
+<span class="staff-title">Chief Operating Officer</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Derek Bellow</span>
+<span class="staff-title">Regional Vice President</span>
+</div>
+
+</div>
+</div>
+
+
+<div class="staff-group">
+<h3>CCAA Support Team</h3>
+
+<div class="staff-grid">
+
+<div class="staff-card">
+<span class="staff-name">Katya Riley</span>
+<span class="staff-title">Student Support Services</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Willa Midgette</span>
+<span class="staff-title">Graduation Support Coordinator</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Maria Thayer</span>
+<span class="staff-title">Instructional Coordinator</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Harmoni Wallace</span>
+<span class="staff-title">Community Liaison Coordinator</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Friyana Pithawalla</span>
+<span class="staff-title">Academic Support Coordinator</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Joy Smith</span>
+<span class="staff-title">Academic Support Coordinator</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Kamy Acosta</span>
+<span class="staff-title">Academic Support Coordinator</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Xochitl Saenz</span>
+<span class="staff-title">District Registrar</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Michelle King</span>
+<span class="staff-title">Registrar</span>
+</div>
+
+<div class="staff-card">
+<span class="staff-name">Sam Medrano</span>
+<span class="staff-title">Registrar</span>
+</div>
+
+</div>
+</div>
+
+
+<div class="staff-group">
 
 <h3>Content Coaches</h3>
-<ul class="names">
-<li><strong>English Language Arts</strong><small>Joy Grinstead · Tay Stanley-Valdez · Megan Carlson · Thomas Brophy</small></li>
-<li><strong>Math</strong><small>MacKenzie McElduff · John Campbell · Heni Wright</small></li>
-<li><strong>Science</strong><small>Christian Cota · William Brown · Kyla Burke · Rana Khanbolouki</small></li>
-<li><strong>Social Studies</strong><small>Alma Valenzuela Hernandez · Darius White · Erin Taggard · Steffen Kriss</small></li>
-<li><strong>Special Education</strong><small>Angela Johnson · Desiree Banks · Amanda Hopkins · Agustin Peña</small></li>
-<li><strong>PE / Health</strong><small>James Tate · Anne Harper · James Desson</small></li>
-<li><strong>Computer Science</strong><small>Michael Dambach</small></li>
-</ul>
 
-<h3>East Academy</h3>
-<p><strong>Priscilla Alonzo</strong> · Director</p>
-<ul class="names">
+<p>Serving all CCAA academies.</p>
+
+<div class="coach-area">
+<h4>English Language Arts</h4>
+<div class="coach-list">
+<div class="coach-name">Joy Grinstead</div>
+<div class="coach-name">Tay Stanley-Valdez</div>
+<div class="coach-name">Megan Carlson</div>
+<div class="coach-name">Thomas Brophy</div>
+</div>
+</div>
+
+<div class="coach-area">
+<h4>Math</h4>
+<div class="coach-list">
+<div class="coach-name">MacKenzie McElduff</div>
+<div class="coach-name">John Campbell</div>
+<div class="coach-name">Heni Wright</div>
+</div>
+</div>
+
+<div class="coach-area">
+<h4>Science</h4>
+<div class="coach-list">
+<div class="coach-name">Christian Cota</div>
+<div class="coach-name">William Brown</div>
+<div class="coach-name">Kyla Burke</div>
+<div class="coach-name">Rana Khanbolouki</div>
+</div>
+</div>
+
+<div class="coach-area">
+<h4>Social Studies</h4>
+<div class="coach-list">
+<div class="coach-name">Alma Valenzuela Hernandez</div>
+<div class="coach-name">Darius White</div>
+<div class="coach-name">Erin Taggard</div>
+<div class="coach-name">Steffen Kriss</div>
+</div>
+</div>
+
+<div class="coach-area">
+<h4>Special Education Student Services</h4>
+<div class="coach-list">
+<div class="coach-name">Angela Johnson</div>
+<div class="coach-name">Desiree Banks</div>
+<div class="coach-name">Amanda Hopkins</div>
+<div class="coach-name">Agustin Peña</div>
+</div>
+</div>
+
+<div class="coach-area">
+<h4>PE / Health</h4>
+<div class="coach-list">
+<div class="coach-name">James Tate</div>
+<div class="coach-name">Anne Harper</div>
+<div class="coach-name">James Desson</div>
+</div>
+</div>
+
+<div class="coach-area">
+<h4>Computer Science</h4>
+<div class="coach-list">
+<div class="coach-name">Michael Dambach</div>
+</div>
+</div>
+
+</div>
+
+
+<div class="staff-group">
+<h3>Academy Teams</h3>
+
+
+<div class="campus">
+
+<h3>East Campus</h3>
+
+<div class="campus-leadership">
+
+<div class="campus-leader">
+<span class="staff-name">Priscilla Alonzo</span>
+<span class="staff-title">Academy Director</span>
+</div>
+
+<div class="campus-leader">
+<span class="staff-name">Jill Hersha</span>
+<span class="staff-title">Assistant Director</span>
+</div>
+
+</div>
+
+<div class="gca-label">Graduation Candidate Advocates</div>
+
+<ul class="staff-list">
 <li>Claudia Meneses</li>
 <li>Val Woods</li>
 <li>Alondra Rojas Arredondo</li>
@@ -90,9 +857,30 @@
 <li>Liz Gonzalez Pastrana</li>
 </ul>
 
-<h3>Southeast Academy</h3>
-<p><strong>Tamara Martin</strong> · Director</p>
-<ul class="names">
+</div>
+
+
+<div class="campus">
+
+<h3>Southeast Campus</h3>
+
+<div class="campus-leadership">
+
+<div class="campus-leader">
+<span class="staff-name">Tamara Martin</span>
+<span class="staff-title">Academy Director</span>
+</div>
+
+<div class="campus-leader">
+<span class="staff-name">Jill Hersha</span>
+<span class="staff-title">Assistant Director</span>
+</div>
+
+</div>
+
+<div class="gca-label">Graduation Candidate Advocates</div>
+
+<ul class="staff-list">
 <li>Stacy Grittini-Stanley</li>
 <li>Sandra Aguilar</li>
 <li>Jhalaini Byers</li>
@@ -101,16 +889,53 @@
 <li>Valeria Rodriguez</li>
 </ul>
 
-<h3>HOPE Academy</h3>
-<p><strong>Tam Larnerd</strong> · Director</p>
-<ul class="names">
-<li>Ms. Bennet</li>
+</div>
+
+
+<div class="campus">
+
+<h3>HOPE Campus</h3>
+
+<div class="campus-leadership">
+
+<div class="campus-leader">
+<span class="staff-name">Tam Larnerd</span>
+<span class="staff-title">Academy Director</span>
+</div>
+
+</div>
+
+<div class="gca-label">Graduation Candidate Advocates</div>
+
+<ul class="staff-list">
+<li>Ms. Bennett</li>
 <li>Amber Mahoney</li>
 </ul>
 
-<h3>North Academy</h3>
-<p><strong>Randy Cheung</strong> · Director</p>
-<ul class="names">
+</div>
+
+
+<div class="campus">
+
+<h3>North Campus</h3>
+
+<div class="campus-leadership">
+
+<div class="campus-leader">
+<span class="staff-name">Randy Cheung</span>
+<span class="staff-title">Academy Director</span>
+</div>
+
+<div class="campus-leader">
+<span class="staff-name">Veronica Cruz-Peredo</span>
+<span class="staff-title">Assistant Director</span>
+</div>
+
+</div>
+
+<div class="gca-label">Graduation Candidate Advocates</div>
+
+<ul class="staff-list">
 <li>Pauline Potauaine</li>
 <li>Kaleb Peredo</li>
 <li>Brandy Frederick</li>
@@ -121,36 +946,146 @@
 <li>Nicole Maglaya</li>
 <li>Dennise Rodriguez</li>
 </ul>
+
+</div>
+
+</div>
+
 </section>
-  <div id="graduate-tools" class="tools" hidden><div><label for="search">Find a graduate</label><input id="search" type="search" placeholder="Enter a graduate’s name" autocomplete="off"></div><div><label for="campus">Academy</label><select id="campus"><option value="">All academies</option><option>East</option><option>North</option><option>Southeast</option><option>HOPE</option></select></div></div>
-<p id="graduate-status" class="pending" role="status" aria-live="polite">The Class of 2026 graduate list will be added here soon.</p><ul id="graduate-list" class="names" aria-label="Graduates"></ul>
-<noscript><p>Enable JavaScript to use graduate name search.</p></noscript></section>
-<section class="section" id="recognition"><span class="number">03 / SPECIAL RECOGNITION</span><h2>Honoring achievement</h2><p class="pending">Scholarship recipients and special recognitions will be announced here when finalized.</p></section>
-<div id="information" class="two"><section class="section"><span class="number">04 / JOIN US</span><h2>Guest information</h2><p>Central Church<br>1001 New Beginnings Drive<br>Henderson, NV 89011</p><p>Free parking is available.</p><p>Please leave large balloon bouquets, confetti and noisemakers at home so everyone can enjoy the ceremony.</p><a class="link-button" href="https://www.google.com/maps/search/?api=1&amp;query=Central+Church+1001+New+Beginnings+Drive+Henderson+NV+89011" target="_blank" rel="noopener noreferrer">Get directions <span aria-hidden="true">↗</span></a></section>
-<section class="section"><span class="number">05 / CELEBRATE FROM ANYWHERE</span><h2>Watch &amp; remember</h2><p>The ceremony will be livestreamed for family and friends celebrating from afar.</p><p class="pending">The livestream link will be posted here when available.</p><p>Graduation photos and a keepsake program will be linked here when available.</p></section></div>
+
+<!-- END STAFF SECTION -->
+
+
+<div id="information" class="two">
+
+<section class="section">
+<span class="number">05 / JOIN US</span>
+<h2>Guest information</h2>
+
+<p>
+Central Church<br>
+1001 New Beginnings Drive<br>
+Henderson, NV 89011
+</p>
+
+<p>Free parking is available.</p>
+
+<p>
+Please leave large balloon bouquets, confetti and noisemakers at home so everyone can enjoy the ceremony.
+</p>
+
+<a class="link-button"
+href="https://www.google.com/maps/search/?api=1&amp;query=Central+Church+1001+New+Beginnings+Drive+Henderson+NV+89011"
+target="_blank"
+rel="noopener noreferrer">
+Get directions <span aria-hidden="true">↗</span>
+</a>
+
+</section>
+
+
+<section class="section">
+
+<span class="number">06 / CELEBRATE FROM ANYWHERE</span>
+
+<h2>Watch &amp; remember</h2>
+
+<p>
+The ceremony will be livestreamed for family and friends celebrating from afar.
+</p>
+
+<p class="pending">
+The livestream link will be posted here when available.
+</p>
+
+<p>
+Graduation photos and a keepsake program will be linked here when available.
+</p>
+
+</section>
+
+</div>
+
 </main>
-<footer class="foot"><div class="gold" aria-hidden="true"></div><strong>Clark County Acceleration Academies</strong><p>East · North · Southeast · HOPE</p><p>Congratulations, Class of 2026.</p></footer>
+
+
+<footer class="foot">
+
+<div class="gold" aria-hidden="true"></div>
+
+<strong>Clark County Acceleration Academies</strong>
+
+<p>East · North · Southeast · HOPE</p>
+
+<p>Congratulations, Class of 2026.</p>
+
+</footer>
+
+
 <script>
+
 // Add only the approved public graduate roster here.
-// Each record uses: {name: "Full Name", campus: "East"}
-// Campus names: East, North, Southeast, HOPE.
+// Each record uses:
+// {name: "Full Name", campus: "East"}
+
 const graduates = [];
+
 const search = document.getElementById('search');
 const campus = document.getElementById('campus');
 const status = document.getElementById('graduate-status');
 const list = document.getElementById('graduate-list');
-function normalize(value){return value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().trim();}
-function renderGraduates(){
-  if(!graduates.length)return;
-  document.getElementById('graduate-tools').hidden=false;
-  status.className='status';
-  const query=normalize(search.value);
-  const matches=graduates.filter(person=>normalize(person.name).includes(query)&&(!campus.value||person.campus===campus.value)).sort((a,b)=>a.name.localeCompare(b.name));
-  list.replaceChildren();
-  for(const person of matches){const item=document.createElement('li');const name=document.createElement('strong');const academy=document.createElement('small');name.textContent=person.name;academy.textContent=person.campus;item.append(name,academy);list.append(item);}
-  status.textContent=matches.length ? `${matches.length} graduate${matches.length===1?'':'s'}${query||campus.value?' found':''}` : 'No matching graduates. Try another name or academy.';
+
+function normalize(value){
+  return value
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g,'')
+    .toLocaleLowerCase()
+    .trim();
 }
-search.addEventListener('input',renderGraduates);campus.addEventListener('change',renderGraduates);renderGraduates();
+
+function renderGraduates(){
+
+  if(!graduates.length)return;
+
+  document.getElementById('graduate-tools').hidden=false;
+
+  status.className='status';
+
+  const query=normalize(search.value);
+
+  const matches=graduates
+    .filter(person =>
+      normalize(person.name).includes(query) &&
+      (!campus.value || person.campus===campus.value)
+    )
+    .sort((a,b)=>a.name.localeCompare(b.name));
+
+  list.replaceChildren();
+
+  for(const person of matches){
+
+    const item=document.createElement('li');
+    const name=document.createElement('strong');
+    const academy=document.createElement('small');
+
+    name.textContent=person.name;
+    academy.textContent=person.campus;
+
+    item.append(name,academy);
+    list.append(item);
+  }
+
+  status.textContent=matches.length
+    ? `${matches.length} graduate${matches.length===1?'':'s'}${query||campus.value?' found':''}`
+    : 'No matching graduates. Try another name or academy.';
+}
+
+search.addEventListener('input',renderGraduates);
+campus.addEventListener('change',renderGraduates);
+
+renderGraduates();
+
 </script>
+
 </body>
 </html>
